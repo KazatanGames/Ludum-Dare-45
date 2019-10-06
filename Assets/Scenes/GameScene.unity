@@ -2451,7 +2451,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'x6
+  m_Text: 'x3
 
 '
 --- !u!222 &1521908495
@@ -2530,7 +2530,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'x3
+  m_Text: 'x2
 
 '
 --- !u!222 &1551859260

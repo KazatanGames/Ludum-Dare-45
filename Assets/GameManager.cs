@@ -652,9 +652,9 @@ public class GameManager : MonoBehaviour
 
     public void MixGreen()
     {
-        if (inv.frogs < 6) return;
+        if (inv.frogs < 3) return;
 
-        inv.frogs -= 6;
+        inv.frogs -= 3;
         greenPotionTime = config.greenPotionTime;
         audioMusic.pitch = config.greenMusicPitch;
         SfxClip(sfxDrink);
@@ -663,9 +663,9 @@ public class GameManager : MonoBehaviour
 
     public void MixRed()
     {
-        if (inv.dragonScales < 3) return;
+        if (inv.dragonScales < 2) return;
 
-        inv.dragonScales -= 3;
+        inv.dragonScales -= 2;
         redPotionTime = config.redPotionTime;
         shieldLife = true;
         SfxClip(sfxDrink);
